@@ -1,0 +1,98 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.btn-expo {
+	background-color: #be004b !important;
+	border:1px solid #fff;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	border-radius: inherit;
+}
+
+.btn-expo:hover {
+	background-color: #be004b;
+	opacity: 1;
+	border-color: #fff !important;
+}
+
+.btn-expo:focus {
+	background-color: #be004b !important;
+	opacity: 1;
+	border-color: #fff !important;
+}
+
+.btn-expo i {
+	font-size: 40px;
+}
+
+.btn-drop-menu {
+	color: #fff;
+	background-color: #000;
+	padding-left: 10px;
+	opacity: 0.7;
+}
+
+.btn-drop-menu li a  {
+	color: #fff;
+	font-weight: 100;
+	text-transform: uppercase;
+	opacity: 1;
+}
+
+.btn-drop-menu li  {
+	border-bottom: 0.5px solid #fff;
+	margin-bottom: 5px;
+	padding-right: 50px;
+	margin-right: 10px;
+	opacity: 1;
+}
+
+.nav-img {
+	display: flex;
+	float: right;
+}
+
+.caret {
+	margin: 5px 0px;
+}
+
+.expo-background {
+	background-image: url("../img/bck.jpg");
+	width: 100%;
+	height: 600px;
+	background-repeat: 100% 100%;
+	background-size: cover;
+	position: relative;
+}
+
+.expo-background .container .logo {
+	float: left;
+}
+
+.expo-background .container .logo img{
+	width: 450px;
+	height: 154px;
+}
+
+.flat-icons {
+	width: 64px;
+}
+<<<<<<< HEAD
+=======
+
+#getting-started {
+	text-align: center;
+	bottom: 0;
+	width: 90%;
+	margin: 0 auto;
+	font-size: 50px;
+	position: absolute;
+	color: #00a3ac;
+
+}
+>>>>>>> 9fcd4d590e4d9bda0cd74c6da5de559bc7c33980
