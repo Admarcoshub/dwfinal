@@ -15,50 +15,59 @@
 			<img src="img/logo.jpg">
 		</div>
 		<div class="nav-img">
-	<div class="dropdown expo-vista">
-    <button class="btn btn-primary dropdown-toggle btn-expo" type="button" data-toggle="dropdown"><img class="flat-icons" src="img/sofa.svg">EXPODECO
-    <span class="caret"></span></button>
-    <ul class="dropdown-menu btn-drop-menu">
-      <li><a href="#">Conversatorio</a></li>
-      <li><a href="#">Salones</a></li>
-      <li><a href="#">Expositores</a></li>
-      <li><a href="#">Social Day Pary</a></li>
-      <li><a href="#">Exposiciones</a></li>
-      <li><a href="#">Prensa</a></li>
-      <li><a href="#">Auspiciadores</a></li>
-    </ul>
- </div>
- <div class="dropdown expo-vista">
-    <button class="btn btn-primary dropdown-toggle btn-expo" type="button" data-toggle="dropdown"><img class="flat-icons" src="img/traveler.svg">VISITANTES
-    <span class="caret"></span></button>
-    <ul class="dropdown-menu btn-drop-menu">
-      <li><a href="#">Conversatorio</a></li>
-      <li><a href="#">Salones</a></li>
-      <li><a href="#">Expositores</a></li>
-      <li><a href="#">Social Day Pary</a></li>
-      <li><a href="#">Exposiciones</a></li>
-      <li><a href="#">Prensa</a></li>
-      <li><a href="#">Auspiciadores</a></li>
-    </ul>
- </div>
- <div class="dropdown expo-vista">
-    <button class="btn btn-primary dropdown-toggle btn-expo" type="button" data-toggle="dropdown"><img class="flat-icons" src="img/shop.svg"></i>PARTICIPANTES
-    <span class="caret"></span></button>
-    <ul class="dropdown-menu btn-drop-menu">
-      <li><a href="#">Conversatorio</a></li>
-      <li><a href="#">Salones</a></li>
-      <li><a href="#">Expositores</a></li>
-      <li><a href="#">Social Day Pary</a></li>
-      <li><a href="#">Exposiciones</a></li>
-      <li><a href="#">Prensa</a></li>
-      <li><a href="#">Auspiciadores</a></li>
-    </ul>
- </div>
-
-	<script src="./js/jquery-3.1.1.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
+			<div class="dropdown expo-vista">
+    			<button class="btn btn-primary dropdown-toggle btn-expo" type="button" data-toggle="dropdown"><img class="flat-icons" src="img/sofa.svg">EXPODECO
+    			<span class="caret"></span></button>
+			    <ul class="dropdown-menu btn-drop-menu">
+			      <li><a href="#">Jardines</a></li>
+			      <li><a href="#">Baños</a></li>
+			      <li><a href="#">Cocinas</a></li>
+			      <li><a href="#">Muebles</a></li>
+			      <li><a href="#">Iluminacion</a></li>
+			      <li><a href="#">Interiores</a></li>
+			    </ul>
+ 			</div>
+ 			<div class="dropdown expo-vista">
+    			<button class="btn btn-primary dropdown-toggle btn-expo" type="button" data-toggle="dropdown"><img class="flat-icons" src="img/traveler.svg">VISITANTES
+    			<span class="caret"></span></button>
+			    <ul class="dropdown-menu btn-drop-menu">
+			      <li><a href="#">Conversatorio</a></li>
+			      <li><a href="#">Salones</a></li>
+			      <li><a href="#">Expositores</a></li>
+			      <li><a href="#">Social Day Party</a></li>
+			      <li><a href="#">Exposiciones</a></li>
+			      <li><a href="#">Videos</a></li>
+			    </ul>
+ 			</div>
+ 			<div class="dropdown expo-vista">
+    			<button class="btn btn-primary dropdown-toggle btn-expo" type="button" data-toggle="dropdown"><img class="flat-icons" src="img/shop.svg">PARTICIPANTES
+    			<span class="caret"></span></button>
+			    <ul class="dropdown-menu btn-drop-menu">
+			      <li><a href="#">Home</a></li>
+			      <li><a href="#">Información general</a></li>
+			      <li><a href="#">Por qué participar?</a></li>
+			      <li><a href="#">Planos y stands</a></li>
+			      <li><a href="#">Visitantes</a></li>
+			      <li><a href="#">Proveedores</a></li>
+			      <li><a href="#">Auspiciadores</a></li>
+			      <li><a href="#">Prensa</a></li>
+			    </ul>
+ 			</div>
+		</div>
+		<div id="getting-started"></div>
 	</div>
 </div>
-</div>
+<script src="./js/jquery-3.1.1.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/scripts.js"></script>
+<script src="./js/jquery.countdown.min.js"></script>
+<script type="text/javascript">
+  $("#getting-started")
+  .countdown("2017/05/23", function(event) {
+    $(this).text(
+      event.strftime('%D days %H:%M:%S')
+    );
+  });
+</script>
 </body>
 </html>
