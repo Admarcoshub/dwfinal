@@ -9,6 +9,7 @@
 	<title>::EXPODECO::</title>
 </head>
 <body>
+
 <div class="expo-background">
 	<div class="container">
 		<div class="logo">
@@ -54,7 +55,9 @@
 			    </ul>
  			</div>
 		</div>
-		<div id="getting-started"></div>
+		<div class="bck-clock">
+			<div id="getting-started"></div>
+		</div>
 	</div>
 </div>
 <script src="./js/jquery-3.1.1.min.js"></script>
@@ -65,7 +68,7 @@
   $("#getting-started")
   .countdown("2017/05/23", function(event) {
     $(this).text(
-      event.strftime('%D days %H:%M:%S')
+      event.strftime('%D días : %H horas :%M minutos :%S segundos')
     );
   });
 </script>

@@ -86,10 +86,13 @@ body {
 #getting-started {
 	text-align: center;
 	bottom: 0;
-	width: 90%;
+	width: 85%;
 	margin: 0 auto;
 	font-size: 50px;
 	position: absolute;
-	color: #00a3ac;
+	color: #fff;
+	background-color: #000;
+	opacity: 0.7;
 
 }
+
