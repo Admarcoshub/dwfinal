@@ -5,38 +5,38 @@
 	 width="600px" height="300px" viewBox="0 0 600 300" enable-background="new 0 0 600 300" xml:space="preserve">
 <g>
 	<g>
-		<path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M437.388,123.857v83.266H450v-88.531
+		<path fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M437.388,123.857v83.266H450v-88.531
 			C450,118.592,443.755,123,437.388,123.857z"/>
-		<polygon fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="310.102,0.123 289.653,0.123 284.388,57.673 
+		<polygon fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" points="310.102,0.123 289.653,0.123 284.388,57.673 
 			315.367,57.673 		"/>
-		<path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M194.755,95.021c0,8.816,7.164,15.918,15.918,15.918
+		<path fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M194.755,95.021c0,8.816,7.164,15.918,15.918,15.918
 			c8.816,0,15.918-7.164,15.918-15.918V70.286h-31.837V95.021z"/>
-		<path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M328.408,95.021c0,8.816,7.163,15.918,15.918,15.918
+		<path fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M328.408,95.021c0,8.816,7.163,15.918,15.918,15.918
 			c8.816,0,15.919-7.164,15.919-15.918V70.286h-31.897v24.735H328.408z"/>
-		<polygon fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="401.693,57.673 375.551,0.123 356.021,0.123 
+		<polygon fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" points="401.693,57.673 375.551,0.123 356.021,0.123 
 			371.755,57.673 		"/>
-		<polygon fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="444.551,57.673 407.877,0.123 389.326,0.123 
+		<polygon fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" points="444.551,57.673 407.877,0.123 389.326,0.123 
 			415.531,57.673 		"/>
-		<polygon fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="358.652,57.673 342.918,0.123 322.715,0.123 
+		<polygon fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" points="358.652,57.673 342.918,0.123 322.715,0.123 
 			327.979,57.673 		"/>
-		<path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M239.204,95.021c0,8.816,7.163,15.918,15.918,15.918
+		<path fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M239.204,95.021c0,8.816,7.163,15.918,15.918,15.918
 			c8.816,0,15.918-7.164,15.918-15.918V70.286h-31.898v24.735H239.204z"/>
-		<path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M373.163,95.021c0,8.816,7.163,15.918,15.919,15.918
+		<path fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M373.163,95.021c0,8.816,7.163,15.918,15.919,15.918
 			c8.816,0,15.918-7.164,15.918-15.918V70.286h-31.898v24.735H373.163z"/>
-		<path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M299.877,111c8.816,0,15.918-7.163,15.918-15.918V70.347h-31.898
+		<path fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M299.877,111c8.816,0,15.918-7.163,15.918-15.918V70.347h-31.898
 			v24.734C283.959,103.837,291.061,111,299.877,111z"/>
-		<rect x="150" y="219.245" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" width="299.755" height="80.633"/>
-		<polygon fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="271.837,57.673 277.041,0.123 256.837,0.123 
+		<rect x="150" y="219.245" fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" width="299.755" height="80.633"/>
+		<polygon fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" points="271.837,57.673 277.041,0.123 256.837,0.123 
 			241.102,57.673 		"/>
-		<polygon fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="210.429,0.123 191.877,0.123 155.204,57.673 
+		<polygon fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" points="210.429,0.123 191.877,0.123 155.204,57.673 
 			184.286,57.673 		"/>
-		<polygon fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="228.061,57.673 243.735,0.123 224.204,0.123 
+		<polygon fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" points="228.061,57.673 243.735,0.123 224.204,0.123 
 			198.061,57.673 		"/>
-		<path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M417.734,95.021c0,8.816,7.163,15.918,15.919,15.918
+		<path fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M417.734,95.021c0,8.816,7.163,15.918,15.919,15.918
 			c8.816,0,15.918-7.164,15.918-15.918V70.286h-31.897v24.735H417.734z"/>
-		<path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M166.041,111c8.816,0,15.918-7.163,15.918-15.918V70.347h-31.836
+		<path fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M166.041,111c8.816,0,15.918-7.163,15.918-15.918V70.347h-31.836
 			v24.734C150.123,103.837,157.286,111,166.041,111z"/>
-		<path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M150.245,205.898h12.612v-82.531
+		<path fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M150.245,205.898h12.612v-82.531
 			c-6.367-0.857-12.612-5.204-12.612-5.204V205.898z"/>
 	</g>
 </g>
