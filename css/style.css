@@ -16,7 +16,7 @@ body {
 
 .btn-expo:hover {
 	background-color: #be004b;
-	opacity: 0.6;
+	opacity: 1;
 }
 
 .btn-expo:focus {
@@ -74,4 +74,8 @@ body {
 .expo-background .container .logo img{
 	width: 450px;
 	height: 154px;
+}
+
+.flat-icons {
+	width: 64px;
 }
