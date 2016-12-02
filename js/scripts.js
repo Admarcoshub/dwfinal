@@ -35,3 +35,4 @@ jQuery(document).ready(function ($) {
             $(window).bind("resize", ScaleSlider);
             $(window).bind("orientationchange", ScaleSlider);  
         });
+
