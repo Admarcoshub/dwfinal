@@ -113,9 +113,6 @@ body {
 	opacity: 0.7;
 }
 
-.publi {
-	margin-top: 40px;
-}
 
 .shrink {
 	display: none !important;
@@ -292,7 +289,7 @@ body {
 }
 
 .fondo-b img:hover {
-	animation: imagenes 2s ease;
+	animation: imagenes 0.5s ease;
 	animation-fill-mode: forwards;
 }
 
@@ -317,6 +314,14 @@ body {
 	font-size:25px;
 }
 
+.person p {
+	margin: 0;
+}
+
+.salons {
+	margin-top: 150px;
+}
+
 .green-expo-2 {
 	background-color: #a1c81a;
 	color: white;
@@ -335,7 +340,7 @@ body {
 .person {
 	width: 25%;
 	color: #000;
-	text-align: left;
+	text-align: justify;
 }
 
 .person img {
@@ -350,7 +355,7 @@ body {
 
 
 .img-person img:hover {
-	animation: imagenes 2s ease;
+	animation: imagenes 0.5s ease;
 	animation-fill-mode: forwards;
 }
 
@@ -558,3 +563,8 @@ footer ul > li {
 	padding: 0px 10px;
 }
 
+.arrow li a {
+	color: #fff !important;
+	text-decoration: none;
+	font-weight: bold;
+}
