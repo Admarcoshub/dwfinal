@@ -496,12 +496,18 @@ footer ul > li {
 	color: #00a3ac
 }
 
-.form{
-	height: 600px;
+
+.bruno-part {
+	
+	background-image:url("../img/formulario.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-image:url("../img/formulario.jpg");
-	text-align: center;
+	height: 700px;
+}
+
+.form{
+	height: 600px;
+		text-align: center;
 	color: white;
 	display: flex;
 	flex-direction: column;
