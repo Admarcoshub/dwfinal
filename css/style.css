@@ -63,12 +63,18 @@ body {
 
 .nav-img {
 	display: flex;
-	float: right;
-	margin-right: 50px;
+	position: fixed;
+	right: 90px;
+	z-index: 100;
+	transition: all 0.4s ease;
 }
 
 .caret {
 	margin: 5px 0px;
+}
+
+.caret2{
+	margin: 0px;
 }
 
 .expo-background {
@@ -108,6 +114,32 @@ body {
 .publi {
 	margin-top: 40px;
 }
+
+.shrink {
+	display: none !important;
+	transition: all 0.8s ease;
+	z-index: 100;
+}
+
+.nav-fixed {
+	position: fixed;
+}
+
+.whitenav {
+	background-color: rgba(0,0,0,0.8);
+	width: 100%;
+	height: 39px;
+	z-index: 10000;
+	transition: all 0.8s ease;
+
+}
+
+.cheese {
+	padding-left: 0 !important;
+	margin-left: 0 !important;  
+}
+
+
 
 /*slider de publicidad*/
 
@@ -299,4 +331,75 @@ body {
 	font-size: 40px;
 	color: #a1c81a;
 	margin-right: 20px;
+}
+
+.title{
+    background-color: #2ecc71;
+    color: white;
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
+.breadcrumb{
+	background-color: #2ecc71;
+    padding-top: 7%;
+    font-size: 1.2em;
+    color:white;
+}
+
+section.title ul.breadcrumb li a{
+  color: #bdc3c7;
+}
+.informacion{
+	background-color:#00a3ac
+;
+	color: white;
+  padding: 3% 0% 5%; 
+}
+
+.informacion p, .informacion small, .informacion address, .informacion ul.arrow li a, .informacion div.media span a{
+  color: #bdc3c7; 
+}
+
+
+
+
+
+/*END-ABAUT*/
+/*servie*/
+.separ{
+  padding-top: 3%;
+}
+/*servie end*/
+ul.arrow{
+  list-style: none;
+  padding-left: 0px;
+}
+ul.arrow li::before {
+  content: "\f105";
+  font-family: FontAwesome;
+  font-size: 10px;
+  padding-right: 2%;
+}
+
+/*-------------*/
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #bdc3c7;
+  background-color: #313F4C;
+}
+footer a {
+  color: #bdc3c7;
+}
+footer a:hover {
+  color: #d9534f;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+footer ul > li {
+  display: inline-block;
+  margin-left: 15px;
 }
