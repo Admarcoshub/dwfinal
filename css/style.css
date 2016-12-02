@@ -221,13 +221,11 @@ body {
 	height: 1px;
 	background: #fff ;
 	margin-top: 10px;
-
 }
 
 .fotosal {
 	padding: 0 !important;
 }
-
 
 .fotosal img {
 	width:100%;	
@@ -235,6 +233,52 @@ body {
 
 .infosal i {
 	font-size: 28px;
+}
+
+
+.linka {
+	text-decoration: none;
+	color:#000;
+}
+
+.notititle {
+	text-align:center;
+}
+
+.fondo-b {
+	background: #000;
+	height: 350px;
+	display: flex;
+	align-items: center;
+}
+
+.fondo-b img {
+	width:90%;
+	margin: 0 auto;
+}
+
+.fondo-b img:hover {
+	animation: imagenes 2s ease;
+	animation-fill-mode: forwards;
+}
+
+#notiprinci {
+	margin-top: 50px;
+	color:#fff;
+}
+
+.notidet {
+	margin-top:10px;
+	font-size:16px;
+	text-align: justify;	
+}
+
+.titlenotfon {
+	background: #01a5ae;
+}
+
+.titlenot {
+	font-size:25px;
 }
 
 .green-expo-2 {
@@ -245,7 +289,6 @@ body {
 	text-align: center;
 	margin-top: -100px;
 	height: 230px;
-
 }
 
 .people {
@@ -263,6 +306,18 @@ body {
 	width: 100%;
 	margin-bottom: 20px;
 }
+
+
+.img-person img {
+	width: 90%;
+}
+
+
+.img-person img:hover {
+	animation: imagenes 2s ease;
+	animation-fill-mode: forwards;
+}
+
 
 .expo-title {
 	padding: 20px 0px;
@@ -282,7 +337,6 @@ body {
 	text-transform: uppercase;
 }
 
-
 .more-expo {
 	display: flex;
 	text-align: center;
@@ -300,3 +354,11 @@ body {
 	color: #a1c81a;
 	margin-right: 20px;
 }
+
+@keyframes imagenes {
+
+	to {
+		width: 100%;
+	}	
+}
+
