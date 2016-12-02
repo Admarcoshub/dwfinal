@@ -111,6 +111,10 @@ body {
 
 /*slider de publicidad*/
 
+.video {
+	height: 1200px;
+}
+
 .expo-video {
 	background-image: url("../img/video-img.jpg");
 	height: 100%;
