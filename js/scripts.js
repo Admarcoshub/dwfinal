@@ -36,7 +36,7 @@ jQuery(document).ready(function ($) {
             $(window).bind("orientationchange", ScaleSlider);
 
             $(window).scroll(function() {
-                if ($(document).scrollTop() > 170) {
+                if ($(document).scrollTop() > 30) {
                   $('.flat-icons').addClass('shrink');
                 } else {
                   $('.flat-icons').removeClass('shrink');
