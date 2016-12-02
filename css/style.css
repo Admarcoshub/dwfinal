@@ -186,3 +186,67 @@ body {
 
 
 /*fin de slider*/
+
+.green-expo-2 {
+	background-color: #a1c81a;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	margin-top: -100px;
+	height: 230px;
+
+}
+
+.people {
+	display: flex;
+	justify-content: space-around;
+}
+
+.person {
+	width: 25%;
+	color: #000;
+	text-align: left;
+}
+
+.person img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.expo-title {
+	padding: 20px 0px;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.expo-names {
+	color: #a1c81a;
+	margin-bottom: 0px;
+}
+
+.expo-jobs {
+	margin-top: 0;
+	font-weight: 100;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+
+.more-expo {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.more-expo p{
+	margin: 0;
+	color: #a1c81a;
+}
+
+.more-expo i{
+	font-size: 40px;
+	color: #a1c81a;
+	margin-right: 20px;
+}
