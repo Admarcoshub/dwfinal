@@ -1,3 +1,12 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+
+
+
 body {
 	margin: 0;
 	padding: 0;
@@ -184,5 +193,39 @@ body {
 	padding-right: 5px;
 }
 
-
 /*fin de slider*/
+
+.infosal {
+	background: #CF1749;
+	color:white;
+	padding: 50px 200px;
+	height:453px;
+}
+
+.titlesal {
+	font-size:25px;
+}
+
+.subtitlesal::after {
+	content: "";
+	display:block;
+	width: 60px;
+	height: 1px;
+	background: #fff ;
+	margin-top: 10px;
+
+}
+
+.fotosal {
+	padding: 0 !important;
+}
+
+
+.fotosal img {
+	width:100%;	
+}
+
+.infosal i {
+	font-size: 28px;
+}
+
