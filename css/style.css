@@ -15,20 +15,42 @@ body {
 
 .btn-expo {
 	background-color: #be004b !important;
-	border:1px solid #fff;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	align-items: center;
 	border-radius: inherit;
-	border-bottom: none;
-	width: 170px;
+	width: 150px;
+	height: 150px;
+	border: none;
+	opacity: 0.8;
+}
+
+.color-yello {
+	background-color: #99cc33 !important;
+}
+.borde h2 {
+	margin: 0 auto;
+	align-items: center;
+	font-size: 16px;
+}
+
+.borde {
+	border: 1px solid #fff;
+	width: 135px;
+	height: 135px;
+	display: flex;
+	align-items: center;
 }
 
 .btn-expo:hover {
 	background-color: #be004b;
 	opacity: 1;
 	border-color: #fff !important;
+}
+
+.color-yello:hover, .color-yello:active {
+	background-color: #99cc33 !important;
 }
 
 .btn-expo:focus {
@@ -65,7 +87,7 @@ body {
 
 .nav-img {
 	display: flex;
-	position: fixed;
+
 	right: 90px;
 	z-index: 100;
 	transition: all 0.4s ease;
@@ -104,13 +126,14 @@ body {
 #getting-started {
 	text-align: center;
 	bottom: 0;
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 	font-size: 50px;
 	position: absolute;
 	color: #fff;
 	background-color: #000;
 	opacity: 0.7;
+	left: 0;
 }
 
 
@@ -121,7 +144,8 @@ body {
 }
 
 .nav-fixed {
-	position: fixed;
+	display: flex;
+	justify-content: space-between;
 }
 
 .whitenav {

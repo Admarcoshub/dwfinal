@@ -43,18 +43,6 @@ jQuery(document).ready(function ($) {
                 }
             }); 
 
-            $(window).scroll(function() {
-                if ($(document).scrollTop() > 30) {
-                  $('.logo').addClass('shrink')
-                  $('.nav-fixed').addClass('whitenav')
-                  $('.hell').addClass('cheese')
-                  $('.caret').addClass('caret2')
-                } else {
-                  $('.logo').removeClass('shrink')
-                  $('.nav-fixed').removeClass('whitenav')
-                  $('.hell').removeClass('cheese')
-                  $('.caret').removeClass('caret2')
-                }
-            });   
+             
         });
 
