@@ -321,11 +321,12 @@ body {
 .salons {
 	margin-top: 150px;
 }
-
+/* he quitado el tipo de letra bold  IMPORTANTE: QUITAR EL TEXTO ABUNDANTE
+DE LOS EXPOSITORES Y PONER SUS ESPECIALIDADES*/
 .green-expo-2 {
 	background-color: #a1c81a;
 	color: white;
-	font-weight: bold;
+	font-weight: ;
 	font-size: 20px;
 	text-align: center;
 	margin-top: -100px;
@@ -572,5 +573,5 @@ footer ul > li {
 .arrow li a {
 	color: #fff !important;
 	text-decoration: none;
-	font-weight: bold;
+	font-weight: ;
 }
