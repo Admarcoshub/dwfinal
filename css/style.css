@@ -221,12 +221,6 @@ body {
         .jssora03l.jssora03lds { background-position: -3px -33px; opacity: .3; pointer-events: none; }
         .jssora03r.jssora03rds { background-position: -63px -33px; opacity: .3; pointer-events: none; }
 
-.publi {
-	width: inherit !important;
-	height: initial !important ;
-	padding-left: 5px;
-	padding-right: 5px;
-}
 
 /*fin de slider*/
 
@@ -322,7 +316,7 @@ body {
 	margin-top: 150px;
 }
 /* he quitado el tipo de letra bold  IMPORTANTE: QUITAR EL TEXTO ABUNDANTE
-DE LOS EXPOSITORES Y PONER SUS ESPECIALIDADES*/
+DE LOS EXPOSITORES Y PONER SUS ESPECAI*/
 .green-expo-2 {
 	background-color: #a1c81a;
 	color: white;
