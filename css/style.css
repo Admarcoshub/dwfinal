@@ -81,14 +81,16 @@ body {
 	border-color: #fff !important;
 }
 
-.color-yello:hover, .color-yello:focus {
-	background-color: #99cc33 !important;
-}
+
 
 .btn-expo:focus {
 	background-color: #be004b !important;
 	opacity: 1;
 	border-color: #fff !important;
+}
+
+.color-yello:hover, .color-yello:focus {
+	background-color: #99cc33 !important;
 }
 
 .btn-expo i {
