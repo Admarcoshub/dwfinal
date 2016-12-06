@@ -2,6 +2,7 @@
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
+	max-width: 1360px;
 }
 
 
@@ -11,6 +12,38 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+.new-menu {
+	background-color: #1da1ad;
+	color: #fff;
+	display: flex;
+}
+
+.new-menu .container .new-title {
+	writing-mode: tb-rl;
+	filter: flipv fliph;
+	cursor: vertical-text;
+	transform: rotate(180deg);
+}
+
+.menu-vertical {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu-vertical .menu-box {
+	border:1px solid #fff;
+	cursor: pointer;
+	width: 160px;
+	height: 140px;
+	display: flex;
+	align-items: center;
+}
+
+.menu-vertical .menu-box h3 {
+	margin: 0 auto;
 }
 
 .btn-expo {
@@ -45,11 +78,10 @@ body {
 
 .btn-expo:hover {
 	background-color: #be004b;
-	opacity: 1;
 	border-color: #fff !important;
 }
 
-.color-yello:hover, .color-yello:active {
+.color-yello:hover, .color-yello:focus {
 	background-color: #99cc33 !important;
 }
 
@@ -167,15 +199,16 @@ body {
 /*slider de publicidad*/
 
 .video {
-	height: 1200px;
+	height: 470px;
 }
 
 .expo-video {
-	background-image: url("../img/video-img.jpg");
+	background-color: #000;
 	height: 100%;
-	background-size: cover;
-	width: 100%;
+	width: 80%;
 	height: 600px;
+	color: #fff;
+	font-weight: lighter;
 }
 
 .video-cont {
@@ -192,13 +225,14 @@ body {
 	text-align: left;
 	white-space: nowrap;
 	font-size: 25px;
-	border-bottom: 2px solid #000;
+	border-bottom: 2px solid #fff;
 	padding-bottom: 15px;
+	text-align: center;
 }
 
 .text-video {
 	font-weight: bold;
-	text-align: justify;
+	text-align: center;
 }
 
 .slider {
@@ -253,7 +287,7 @@ body {
 }
 
 .infosal {
-	background: #CF1749;
+	background: #1DA1AD;
 	color:white;
 	padding: 50px 200px;
 	height:453px;
