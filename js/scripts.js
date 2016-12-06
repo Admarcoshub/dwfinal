@@ -1,4 +1,4 @@
-jQuery(document).ready(function ($) {
+/*jQuery(document).ready(function ($) {
 
             var jssor_1_options = {
               $AutoPlay: true,
@@ -23,7 +23,7 @@ jQuery(document).ready(function ($) {
             function ScaleSlider() {
                 var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
                 if (refSize) {
-                    refSize = Math.min(refSize, 809);
+                    refSize = Math.min(refSize, 1200);
                     jssor_1_slider.$ScaleWidth(refSize);
                 }
                 else {
@@ -45,4 +45,6 @@ jQuery(document).ready(function ($) {
 
              
         });
+*/
+
 
