@@ -2,7 +2,6 @@
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
-	max-width: 1360px;
 }
 
 
@@ -251,64 +250,25 @@ body {
     transition: 2s ease-in-out left;
 }
 
-/*
-.jssorb03 {
-            position: absolute;
-        }
-        .jssorb03 div, .jssorb03 div:hover, .jssorb03 .av {
-            position: absolute;
-          
-            width: 21px;
-            height: 21px;
-            text-align: center;
-            line-height: 21px;
-            color: white;
-            font-size: 12px;
-            background: url('img/b03.png') no-repeat;
-            overflow: hidden;
-            cursor: pointer;
-            display:none;
-        }
-        .jssorb03 div { background-position: -5px -4px; }
-        .jssorb03 div:hover, .jssorb03 .av:hover { background-position: -35px -4px; }
-        .jssorb03 .av { background-position: -65px -4px; }
-        .jssorb03 .dn, .jssorb03 .dn:hover { background-position: -95px -4px; }
-
-        .jssora03l, .jssora03r {
-            display: block;
-            position: absolute;
-           
-            width: 55px;
-            height: 55px;
-            cursor: pointer;
-            overflow: hidden;
-        }
-        .jssora03l { background-position: -3px -33px; }
-        .jssora03r { background-position: -63px -33px; }
-        .jssora03l:hover { background-position: -123px -33px; }
-        .jssora03r:hover { background-position: -183px -33px; }
-        .jssora03l.jssora03ldn { background-position: -243px -33px; }
-        .jssora03r.jssora03rdn { background-position: -303px -33px; }
-        .jssora03l.jssora03lds { background-position: -3px -33px; opacity: .3; pointer-events: none; }
-        .jssora03r.jssora03rds { background-position: -63px -33px; opacity: .3; pointer-events: none; }
-
-*/
-
-/*fin de slider*/
 
 .salons {
-	background: #000;
+	background: #1da1ad;
 }
 
+
 .infosal {
-	background: #1DA1AD;
+	background: #1da1ad;
 	color:white;
 	padding: 50px 200px;
-	height:453px;
+	height:500px;
 }
 
 .titlesal {
 	font-size:25px;
+}
+
+.subtitlesal {
+	color:#fff;
 }
 
 .subtitlesal::after {
@@ -323,8 +283,15 @@ body {
 	text-align: justify;
 }
 
+
+.salons-in {
+	position: relative;
+}
+
 .fotosal {
-	padding: 0 !important;
+	position: absolute;
+	bottom: 0px !important;
+	right: 100px !important;
 }
 
 .fotosal img {
@@ -333,6 +300,14 @@ body {
 
 .infosal i {
 	font-size: 28px;
+}
+
+#expositores {
+	background: #000;
+}
+
+.titlexp {
+	color: #fff;
 }
 
 
