@@ -11,12 +11,11 @@ body {
 	box-sizing: border-box;
 }
 
-
-
 .new-menu {
 	background-color: #1da1ad;
 	color: #fff;
 	display: flex;
+	height:20vh;
 }
 
 .new-menu .container .new-title {
@@ -35,8 +34,8 @@ body {
 .menu-vertical .menu-box {
 	border:1px solid #fff;
 	cursor: pointer;
-	width: 160px;
-	height: 140px;
+	width: 150px;
+	height: 30px;
 	display: flex;
 	align-items: center;
 }
@@ -56,11 +55,16 @@ body {
 	height: 150px;
 	border: none;
 	opacity: 0.8;
+} 
+
+.menu-box h3 {
+	font-size: 15px;
 }
 
 .color-yello {
 	background-color: #99cc33 !important;
 }
+
 .borde h2 {
 	margin: 0 auto;
 	align-items: center;
@@ -79,8 +83,6 @@ body {
 	background-color: #be004b;
 	border-color: #fff !important;
 }
-
-
 
 .btn-expo:focus {
 	background-color: #be004b !important;
@@ -135,9 +137,9 @@ body {
 }
 
 .expo-background {
-	background-image: url("../img/bck.jpg");
+	background-image: url("../img/bck3.jpg");
 	width: 100%;
-	height: 600px;
+	height:80vh;
 	background-repeat: 100% 100%;
 	background-size: cover;
 	position: relative;
@@ -304,11 +306,25 @@ body {
 
 #expositores {
 	background: #000;
+	height: 450px;
+	margin-top: 20px;
+
+
 }
 
+.row-exo {
+	width:70%;
+	margin: 0 auto;
+	padding-top:20px;
+}
 .titlexp {
 	color: #fff;
 }
+
+.fotoexp img {
+	width:220px;
+	height:220px;
+	}
 
 
 .linka {
@@ -318,6 +334,8 @@ body {
 
 .notititle {
 	text-align:center;
+	height:50px;
+	text-align: center;
 }
 
 .fondo-b {
@@ -365,41 +383,13 @@ body {
 .salons {
 	margin-top: 150px;
 }
-/* he quitado el tipo de letra bold  IMPORTANTE: QUITAR EL TEXTO ABUNDANTE
-DE LOS EXPOSITORES Y PONER SUS ESPECAI*/
-.green-expo-2 {
-	background-color: #a1c81a;
-	color: white;
-	font-weight: ;
-	font-size: 20px;
-	text-align: center;
-	margin-top: -100px;
-	height: 230px;
-}
 
-.people {
-	display: flex;
-	justify-content: space-around;
-}
-
-.person {
-	width: 25%;
-	color: #000;
-	text-align: justify;
-}
-
-.person img {
-	width: 100%;
-	margin-bottom: 20px;
-}
-
-
-.img-person img {
+.img-person {
 	width: 90%;
 }
 
 
-.img-person img:hover {
+.img-person:hover {
 	animation: imagenes 0.5s ease;
 	animation-fill-mode: forwards;
 }
@@ -417,10 +407,10 @@ DE LOS EXPOSITORES Y PONER SUS ESPECAI*/
 }
 
 .expo-jobs {
+	color:#fff;
 	margin-top: 0;
 	font-weight: 100;
 	font-size: 16px;
-	text-transform: uppercase;
 }
 
 .more-expo {
@@ -446,6 +436,52 @@ DE LOS EXPOSITORES Y PONER SUS ESPECAI*/
 	to {
 		width: 100%;
 	}	
+}
+
+.gale {
+	background:#b10648;
+	height:240px;
+	display: flex;
+	align-items: center;
+}
+
+.gale-title {
+	border:1px solid #fff;
+	width:90%;
+	display:flex;
+	align-items: center;
+	margin-left: 100px;
+}
+
+.galeria-gra {
+	font-size: 4em;
+	line-height: 1;
+	color:#fff;
+	padding-left: 150px;
+}
+
+.galeria-peq {
+	line-height: 2;
+	color:#fff;
+	padding-left: 50px;
+}
+
+.cola {
+	margin-left:-30px;
+}
+
+.fotitos {
+	width:200px;
+	height:100px;
+}
+
+.boton {
+	background: #b9c32f;
+	color:#fff;
+	width:100%;
+	height:40px;
+	margin-left:15px;
+	text-align: center;
 }
 
 .title{
@@ -619,3 +655,8 @@ footer ul > li {
 	text-decoration: none;
 	font-weight: ;
 }
+
+#vista1 {
+	height:100vh;
+}
+
