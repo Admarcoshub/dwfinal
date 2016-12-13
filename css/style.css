@@ -40,6 +40,13 @@ body {
 	align-items: center;
 }
 
+.menu-vertical .menu-box:hover {
+	border:1px solid #1da1ad;
+	background: #fff;
+	color: #1da1ad;
+	transition: 0.5s ease;
+}
+
 .menu-vertical .menu-box h3 {
 	margin: 0 auto;
 }

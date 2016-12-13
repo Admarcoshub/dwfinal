@@ -1,0 +1,48 @@
+.conversatorio {
+	margin-top: 50px;
+}
+
+.conversatorio .inside h3{
+	font-size: 45px;
+	font-weight: 800;
+	padding: 25px 8px;
+}
+
+.conversatorio .inside-2 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.conversatorio .text-inside {
+	width: 50%;
+	font-weight: 700;
+
+}
+
+.conversatorio .text-inside h3{
+	white-space: nowrap;
+	border-bottom: 2px solid #000;
+
+}
+
+.conver-collage img {
+	width: 100%;
+}
+
+.conversatorio-images {
+	margin-top: 50px;
+}
+
+.conver-collage {
+	padding: 5px 2px;
+}
+
+.conver-collage .te-xt-con{
+	font-size: 50px;
+	text-transform: uppercase;
+	color: #1da1ad;
+	font-weight: 800;
+	line-height: 90px;
+	margin-left: 10px;
+}
