@@ -5,11 +5,7 @@
 }
 
 
-body {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
+
 
 .new-menu {
 	background-color: #1da1ad;
@@ -29,6 +25,11 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 .menu-vertical .menu-box {
@@ -64,60 +65,6 @@ body {
 	opacity: 0.8;
 } 
 
-.menu-box h3 {
-	font-size: 15px;
-}
-
-.color-yello {
-	background-color: #99cc33 !important;
-}
-
-.borde h2 {
-	margin: 0 auto;
-	align-items: center;
-	font-size: 16px;
-}
-
-.borde {
-	border: 1px solid #fff;
-	width: 135px;
-	height: 135px;
-	display: flex;
-	align-items: center;
-}
-
-.btn-expo:hover {
-	background-color: #be004b;
-	border-color: #fff !important;
-}
-
-.btn-expo:focus {
-	background-color: #be004b !important;
-	opacity: 1;
-	border-color: #fff !important;
-}
-
-.color-yello:hover, .color-yello:focus {
-	background-color: #99cc33 !important;
-}
-
-.btn-expo i {
-	font-size: 40px;
-}
-
-.btn-drop-menu {
-	color: #fff;
-	background-color: #000;
-	padding-left: 10px;
-	opacity: 0.7;
-}
-
-.btn-drop-menu li a  {
-	color: #fff;
-	font-weight: 100;
-	text-transform: uppercase;
-	opacity: 1;
-}
 
 .btn-drop-menu li  {
 	border-bottom: 0.5px solid #fff;
@@ -317,6 +264,60 @@ body {
 	margin-top: 20px;
 
 
+}
+.menu-box h3 {
+	font-size: 15px;
+}
+
+.color-yello {
+	background-color: #99cc33 !important;
+}
+
+.borde h2 {
+	margin: 0 auto;
+	align-items: center;
+	font-size: 16px;
+}
+
+.borde {
+	border: 1px solid #fff;
+	width: 135px;
+	height: 135px;
+	display: flex;
+	align-items: center;
+}
+
+.btn-expo:hover {
+	background-color: #be004b;
+	border-color: #fff !important;
+}
+
+.btn-expo:focus {
+	background-color: #be004b !important;
+	opacity: 1;
+	border-color: #fff !important;
+}
+
+.color-yello:hover, .color-yello:focus {
+	background-color: #99cc33 !important;
+}
+
+.btn-expo i {
+	font-size: 40px;
+}
+
+.btn-drop-menu {
+	color: #fff;
+	background-color: #000;
+	padding-left: 10px;
+	opacity: 0.7;
+}
+
+.btn-drop-menu li a  {
+	color: #fff;
+	font-weight: 100;
+	text-transform: uppercase;
+	opacity: 1;
 }
 
 .row-exo {
